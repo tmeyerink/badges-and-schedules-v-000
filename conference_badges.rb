@@ -11,4 +11,4 @@ def assign_rooms(speakers)
   array = []
   room = 1 
   speakers.each do |speaker|
-    message = "Hello, #{speaker}"
+    message = "Hello, #{speaker}! You'll be assigned to room #{
