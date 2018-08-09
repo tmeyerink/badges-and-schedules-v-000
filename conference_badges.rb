@@ -28,3 +28,6 @@ def printer(attendees)
     puts name
   end
   rooms = assign_rooms(attendees)
+  rooms.each do |message|
+    puts message
+  end
